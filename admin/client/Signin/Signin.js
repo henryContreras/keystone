@@ -94,6 +94,9 @@ var SigninView = React.createClass({
 			'auth-box--has-errors': this.state.isAnimating,
 		});
 		return (
+			<div>
+				<h1>Beta Test</h1>
+			</div>
 			<div className="auth-wrapper">
 				<Alert
 					isInvalid={this.state.isInvalid}
